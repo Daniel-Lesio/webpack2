@@ -1,0 +1,38 @@
+{
+  "name": "figa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Lesio/figa.git"
+  },
+  "author": "lesio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Lesio/figa/issues"
+  },
+  "homepage": "https://github.com/Daniel-Lesio/figa#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
